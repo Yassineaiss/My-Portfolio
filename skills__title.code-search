@@ -1,0 +1,54 @@
+# Query: skills__title
+# ContextLines: 1
+
+s12 results - 2 files
+
+index.html:
+  172                                  <div>
+  173:                                     <h1 class="skills__titles">Frontend developer</h1>
+  174                                      <span class="skills__subtitle">More than 4 years</span>
+
+  180                                  <div class="skills__data">
+  181:                                     <div class="skills__titles">
+  182                                          <h3 class="skills__name">HTML</h3>
+
+  190                                  <div class="skills__data">
+  191:                                     <div class="skills__titles">
+  192                                          <h3 class="skills__name">CSS</h3>
+
+  200                                  <div class="skills__data">
+  201:                                     <div class="skills__titles">
+  202                                          <h3 class="skills__name">Javascript</h3>
+
+  210                                  <div class="skills__data">
+  211:                                     <div class="skills__titles">
+  212                                          <h3 class="skills__name">Angular</h3>
+
+  226          <div>
+  227:             <h1 class="skills__titles">Backend developer</h1>
+  228              <span class="skills__subtitle">More than 4 years</span>
+
+  234          <div class="skills__data">
+  235:             <div class="skills__titles">
+  236                  <h3 class="skills__name">PHP</h3>
+
+  244          <div class="skills__data">
+  245:             <div class="skills__titles">
+  246                  <h3 class="skills__name">Node Js</h3>
+
+  254          <div class="skills__data">
+  255:             <div class="skills__titles">
+  256                  <h3 class="skills__name">Firebase</h3>
+
+  264          <div class="skills__data">
+  265:             <div class="skills__titles">
+  266                  <h3 class="skills__name">MongoDB</h3>
+
+assets\css\styles.css:
+  387  }
+  388: .skills__titles{
+  389    font-size: var(--h3-font-size);
+
+  402  
+  403: .skills__titles{
+  404    display:flex ;
