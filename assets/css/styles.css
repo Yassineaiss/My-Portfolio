@@ -374,6 +374,8 @@ img {
 /*==================== ABOUT ====================*/
 .about__img {
   width: 200px;
+ 
+  
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
@@ -557,9 +559,9 @@ img {
 .qualification__active[data-content]{
   display: block; 
 }
-/* .qualification__button.qualification__active{
-  color: var(--first-color)
-} */
+.qualification__button.qualification__active{
+  color: var(--first-color);
+}
 
 /*==================== SERVICES ====================*/
 .services__container{
@@ -802,6 +804,42 @@ outline: none;
   outline: none; 
   padding: .25rem .5rem .5rem 0 ; 
 }
+button[type="submit"]{
+}
+#status{
+  width: 150px;
+  max-width: 500px;
+text-align: center;
+padding: 10px ;
+margin: 0 auto;
+border-radius: 8px;
+color: rgb(1, 8, 8);
+
+}
+#status.success{
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease  forwards;
+}
+#status.error{
+  background-color: rgb(209, 82, 70);
+  color: white;
+  animation: status 4s ease  forwards;
+}
+@keyframes status{
+  0%{
+    opacity:1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 /*==================== FOOTER ====================*/
 .footer{
   padding-top: 2rem; 
